@@ -1,0 +1,74 @@
+<style>
+     /* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: #FEFAE0;
+    font-family:Montserrat,"Helvetica Neue","Segoe UI",Helvetica,Arial,sans-serif;
+    font-size:16px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #283618; /*https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25*/
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: #bc6c25; /*https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25*/
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none; /* Remove bullets */
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  } 
+</style>
+
+<div class="split left">
+    <div class="centered">
+      <img src="http://logotypes101.com/logos/62/08F747A0671306D2515D2F56EDB8CF16/irishrail.png" alt="Avatar woman">
+      <h2>Dublin Transport</h2>
+      <p>
+        <ul>
+            <li>Dart Underground: 1972</li>
+            <li>Metro North: 2001</li>
+            <li>Navan Railway: 2005</li>
+            <li>Metro West: 2007</li>
+            <li>Luas Bray: 2007</li>
+            <li>Luas Lucan: 2007</li>
+            <li>Dart Drogheda: 2009</li>
+            <li>Dart+: 2018</li>
+            <li>Luas Finglas: 2020</li>
+        </ul> 
+      </p>
+    </div>
+  </div>
+  
+  <div class="split right">
+    <div class="centered">
+      <img src="http://www.riephoffsawmill.com/wp-content/gallery/general/logs.jpg" alt="Avatar man">
+      <h2>SCA</h2>
+      <p>Some text here too.</p>
+    </div>
+</div> 
